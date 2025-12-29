@@ -1,0 +1,15 @@
+# js
+node_modules/
+
+# Astro
+.astro/
+dist/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Misc
+.DS_Store
+
