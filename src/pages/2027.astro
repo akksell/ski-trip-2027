@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import DefaultLayout from '../layouts/default.astro';
+
+const mountains = await getCollection('mountains');
+---
+<DefaultLayout title="2027 Ski Trip with the Boys - Planning">
+    <ul>
+        {mountains.map(mountain => (
+            <li>{mountain.data.resortName}</li>
+        ))}
+    </ul>
+</DefaultLayout>

@@ -1,0 +1,38 @@
+{
+    "resortName": "Telluride",
+    "resortStyle": "resort",
+    "city": "Telluride",
+    "state": "CO",
+    "seasonPassType": "epic",
+    "mountainMetadata": {
+        "trailmapImagePath": "",
+        "baseElevation": {
+            "value": 0,
+            "unit": "ft"
+        },
+        "summitElevation": {
+            "value": 0,
+            "unit": "ft"
+        },
+        "totalTrailCount": 0,
+        "trailCounts": {
+            "green": 0,
+            "blue": 0,
+            "black": 0,
+            "dblack": 0
+        },
+        "totalLiftCount": 0
+    },
+    "featureRankings": {
+        "apres": 1,
+        "townVibe": 2,
+        "costliness": 3,
+        "isolation": 3
+    },
+    "prosCons": {
+        "pros": [],
+        "cons": []
+    },
+    "exampleLodgingOptions": [],
+    "costBreakdown": {}
+}
