@@ -1,1 +1,6 @@
+@import "@fontsource/rubik-bubbles";
 @import "tailwindcss";
+
+@theme {
+    --font-clouds: 'Rubik Bubbles', system-ui;
+}
