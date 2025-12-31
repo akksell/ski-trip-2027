@@ -10,27 +10,27 @@ interface HeroProps {
 
 const { title, subtitle } = Astro.props;
 ---
-<div class="@container bg-linear-to-b from-sky-500 to-sky-100">
+<div class="@container bg-linear-to-b from-sky-600 to-sky-200">
     <!-- TODO: mobile styling -->
     <div class="flex w-full h-full justify-center">
-        <div class="flex w-full gap-16 lg:gap-24 justify-center absolute translate-y-9/4 md:translate-y-7/4 xl:translate-y-9/4 z-1">
-            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase text-shadow-slate-900 text-shadow-sm cloud-text cloud-right">{title}</h1>
-            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase text-shadow-slate-900 text-shadow-sm cloud-text cloud-left">{subtitle}</h1>
+        <div class="flex w-full justify-center gap-16 md:justify-around absolute md:-translate-x-8 translate-y-9/4 md:translate-y-7/4 xl:translate-y-9/4 z-2">
+            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-right">{title}</h1>
+            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase md:text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-left">{subtitle}</h1>
         </div>
-        <Mountain style="z-index: 2;" class="mt-16 md:mt-24 lg:mt-28" />
+        <Mountain style="z-index: 1;" class="mt-16 md:mt-24 lg:mt-28" />
     </div>
-    <Image src={Slopes} alt="Vector of ski slopes" class="absolute top-0 z-3 lg:-translate-y-4" />
+    <Image src={Slopes} alt="Vector of ski slopes" class="absolute top-0 z-3 lg:-translate-y-4 xl:-translate-y-12" />
 </div>
 
 <style>
 .cloud-text {
     -webkit-text-stroke: 1px #000;
 }
-.cloud-right {
+.cloud-left {
     transform: perspective(20rem) rotateY(20deg) skewX(-15deg);
     transform-origin: left center;
 }
-.cloud-left {
+.cloud-right {
     transform: perspective(20rem) rotateY(-20deg) skewX(-15deg);
     transform-origin: right center;
 }
