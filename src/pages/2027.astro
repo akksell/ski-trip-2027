@@ -2,9 +2,11 @@
 import { getCollection } from 'astro:content';
 import DefaultLayout from '../layouts/default.astro';
 import Hero from '../components/hero.astro';
+import Carousel from '../components/Carousel/Carousel.tsx';
 
 const mountains = await getCollection('mountains');
 ---
 <DefaultLayout title="2027 Ski Trip with the Boys - Planning">
     <Hero title="Ski Trip" subtitle="2027" />
+    <Carousel client:load items={mountains} /> 
 </DefaultLayout>

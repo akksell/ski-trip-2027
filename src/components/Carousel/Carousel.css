@@ -1,0 +1,23 @@
+@keyframes gondola-forward {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(200%);
+    }
+}
+@keyframes gondola-backward {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+.next-active, .current-forward-active {
+    animation: 1s 1 normal forwards gondola-forward;
+}
+.prev-active, .current-backward-active {
+    animation: 1s 1 normal forwards gondola-backward;
+}
+
