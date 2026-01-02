@@ -5,23 +5,28 @@
     "state": "CO",
     "seasonPassType": "epic",
     "mountainMetadata": {
-        "trailmapImagePath": "",
+        "trailmapImagePath": "/trailmaps/2526/keystone-trailmap-preview.png",
+        "trailmapFullPDFPath": "/trailmaps/2526/keystone-trailmap.pdf",
         "baseElevation": {
-            "value": 0,
+            "value": 9280,
             "unit": "ft"
         },
         "summitElevation": {
-            "value": 0,
+            "value": 12408,
             "unit": "ft"
         },
-        "totalTrailCount": 0,
+        "skiableTerrainSize": {
+            "value": 3149,
+            "unit": "acres"
+        },
+        "totalTrailCount": 140,
         "trailCounts": {
-            "green": 0,
-            "blue": 0,
-            "black": 0,
+            "green": 17,
+            "blue": 55,
+            "black": 68,
             "dblack": 0
         },
-        "totalLiftCount": 0
+        "totalLiftCount": 21
     },
     "featureRankings": {
         "apres": 2,

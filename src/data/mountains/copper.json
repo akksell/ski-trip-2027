@@ -5,23 +5,28 @@
     "state": "CO",
     "seasonPassType": "ikon",
     "mountainMetadata": {
-        "trailmapImagePath": "",
+        "trailmapImagePath": "/trailmaps/2526/copper-trailmap-preview.jpg",
+        "trailmapFullPDFPath": "/trailmaps/2526/copper-trailmap.pdf",
         "baseElevation": {
-            "value": 0,
+            "value": 9712,
             "unit": "ft"
         },
         "summitElevation": {
-            "value": 0,
+            "value": 12441,
             "unit": "ft"
         },
-        "totalTrailCount": 0,
-        "trailCounts": {
-            "green": 0,
-            "blue": 0,
-            "black": 0,
-            "dblack": 0
+        "skiableTerrainSize": {
+            "value": 2538,
+            "unit": "acres"
         },
-        "totalLiftCount": 0
+        "totalTrailCount": 157,
+        "trailCounts": {
+            "green": 38,
+            "blue": 41,
+            "black": 50,
+            "dblack": 28 
+        },
+        "totalLiftCount": 24
     },
     "featureRankings": {
         "apres": 3,

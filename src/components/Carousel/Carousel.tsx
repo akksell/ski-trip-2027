@@ -1,9 +1,11 @@
+import type { MountainCollection } from '../../types/mountains';
 import { useState } from 'react';
+import ResortPanel from '../ResortPanel';
 import GondolaSVG from '../../assets/images/2027/gondola.svg?react';
 import './Carousel.css';
 
 interface CarouselProps {
-    items: Array<unknown>;
+    items: Array<MountainCollection>;
 }
 
 type GondolaMovementDirection = 'forward' | 'backward' | 'none';
@@ -25,8 +27,8 @@ const Carousel = ({ items }: CarouselProps) => {
     }
 
     return (
-        <div className="flex w-full relative z-10 pt-24">
-            <div className="w-screen flex justify-around items-center bg-center bg-linear-[transparent_27.5%,#4e4978_27.5%,#4e4978_28.5%,transparent_28.5%]">
+        <div className="flex flex-col w-full relative z-10 pt-24 pb-16">
+            <div className="w-screen flex flex-row justify-around items-center bg-center bg-linear-[transparent_27.5%,#4e4978_27.5%,#4e4978_28.5%,transparent_28.5%]">
                 <button type="button" className="cursor-pointer md:mx-16 px-2 py-2" onClick={handlePrevItemButtonAction}>Previous</button>
                 <div className="flex relative justify-center w-full">
                     <GondolaSVG
@@ -42,6 +44,9 @@ const Carousel = ({ items }: CarouselProps) => {
                 </div>
                 <button type="button" className="cursor-pointer md:mx-16 px-2 py-2" onClick={handleNextItemButtonAction}>Next</button>
             </div>
+            {items.map((item, index) => (
+                <ResortPanel key={item.id} mountain={item.data} isActive={activeIndex === index} />
+            ))}
         </div>
     );
 };

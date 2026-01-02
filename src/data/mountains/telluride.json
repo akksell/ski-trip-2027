@@ -5,23 +5,28 @@
     "state": "CO",
     "seasonPassType": "epic",
     "mountainMetadata": {
-        "trailmapImagePath": "",
+        "trailmapImagePath": "/trailmaps/2526/telluride-trailmap-preview.jpg",
+        "trailmapFullPDFPath": "/trailmaps/2526/telluride-trailmap.pdf",
         "baseElevation": {
-            "value": 0,
+            "value": 8725,
             "unit": "ft"
         },
         "summitElevation": {
-            "value": 0,
+            "value": 12515,
             "unit": "ft"
         },
-        "totalTrailCount": 0,
-        "trailCounts": {
-            "green": 0,
-            "blue": 0,
-            "black": 0,
-            "dblack": 0
+        "skiableTerrainSize": {
+            "value": 2000,
+            "unit": "acres"
         },
-        "totalLiftCount": 0
+        "totalTrailCount": 148,
+        "trailCounts": {
+            "green": 34,
+            "blue": 53,
+            "black": 19,
+            "dblack": 42
+        },
+        "totalLiftCount": 17
     },
     "featureRankings": {
         "apres": 1,

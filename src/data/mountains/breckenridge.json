@@ -5,23 +5,28 @@
     "state": "CO",
     "seasonPassType": "epic",
     "mountainMetadata": {
-        "trailmapImagePath": "",
+        "trailmapImagePath": "/trailmaps/2526/breckenridge-trailmap-preview.png",
+        "trailmapFullPDFPath": "/trailmaps/2526/breckenridge-trailmap.pdf",
         "baseElevation": {
-            "value": 0,
+            "value": 9600,
             "unit": "ft"
         },
         "summitElevation": {
-            "value": 0,
+            "value": 12998,
             "unit": "ft"
         },
-        "totalTrailCount": 0,
-        "trailCounts": {
-            "green": 0,
-            "blue": 0,
-            "black": 0,
-            "dblack": 0
+        "skiableTerrainSize": {
+            "value": 2908,
+            "unit": "acres"
         },
-        "totalLiftCount": 0
+        "totalTrailCount": 187,
+        "trailCounts": {
+            "green": 21,
+            "blue": 58,
+            "black": 45,
+            "dblack": 63 
+        },
+        "totalLiftCount": 35
     },
     "featureRankings": {
         "apres": 3,

@@ -1,6 +1,11 @@
 @import "@fontsource/rubik-bubbles";
+@import "@fontsource-variable/lexend";
+@import "@fontsource-variable/fraunces";
 @import "tailwindcss";
 
 @theme {
     --font-clouds: 'Rubik Bubbles', system-ui;
+    --font-sans: 'Lexend Variable', sans-serif;
+    --font-serif: 'Fraunces Variable', serif;
 }
+

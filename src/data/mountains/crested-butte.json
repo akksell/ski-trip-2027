@@ -5,23 +5,28 @@
     "state": "CO",
     "seasonPassType": "epic",
     "mountainMetadata": {
-        "trailmapImagePath": "",
+        "trailmapImagePath": "/trailmaps/2526/crested-butte-trailmap-preview.png",
+        "trailmapFullPDFPath": "/trailmaps/2526/crested-butte-trailmap.pdf",
         "baseElevation": {
-            "value": 0,
+            "value": 9375,
             "unit": "ft"
         },
         "summitElevation": {
-            "value": 0,
+            "value": 12162,
             "unit": "ft"
         },
-        "totalTrailCount": 0,
-        "trailCounts": {
-            "green": 0,
-            "blue": 0,
-            "black": 0,
-            "dblack": 0
+        "skiableTerrainSize": {
+            "value": 1547,
+            "unit": "acres"
         },
-        "totalLiftCount": 0
+        "totalTrailCount": 165,
+        "trailCounts": {
+            "green": 23,
+            "blue": 40,
+            "black": 41,
+            "dblack": 61
+        },
+        "totalLiftCount": 15
     },
     "featureRankings": {
         "apres": 2,
