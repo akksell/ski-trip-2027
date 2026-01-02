@@ -9,7 +9,12 @@ export const seasonPassSchema = z.union([
 
 export const resortStyleSchema = z.union([z.literal('resort'), z.literal('local')]);
 
-export const unitSchema = z.union([z.literal('ft'), z.literal('m'), z.literal('acres')]);
+export const unitSchema = z.union([
+    z.literal('ft'),
+    z.literal('m'),
+    z.literal('acres'),
+    z.literal('in'),
+]);
 
 export const lodgingOptionSchema = z.object({
     id: z.number(),
@@ -58,6 +63,10 @@ export const mountainSchema = z.object({
             dblack: z.number(),
         }),
         totalLiftCount: z.number(),
+        annualSnowfall: z.object({
+            value: z.number(),
+            unit: unitSchema,
+        }),
     }),
     featureRankings: z.object({
         apres: z.number().gte(0).lte(3),

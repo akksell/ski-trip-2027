@@ -26,7 +26,11 @@
             "black": 19,
             "dblack": 42
         },
-        "totalLiftCount": 17
+        "totalLiftCount": 17,
+        "annualSnowfall": {
+            "value": 280,
+            "unit": "in"
+        }
     },
     "featureRankings": {
         "apres": 1,

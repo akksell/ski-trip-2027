@@ -14,7 +14,7 @@ interface MountainInfoProps {
 }
 
 const MountainInfo = ({ resortName, resortStyle, city, state, seasonPassType, mountainMetadata }: MountainInfoProps) => {
-    const { baseElevation, summitElevation, totalLiftCount, totalTrailCount, trailCounts, skiableTerrainSize } = mountainMetadata;
+    const { baseElevation, summitElevation, totalLiftCount, totalTrailCount, trailCounts, skiableTerrainSize, annualSnowfall } = mountainMetadata;
     return (
         <div className="flex flex-col flex-1 lg:flex-2 p-2">
             <div className='pb-4'>
@@ -30,6 +30,7 @@ const MountainInfo = ({ resortName, resortStyle, city, state, seasonPassType, mo
                 <ul>
                     <li><span className="capitalize">Base Elevation:</span> {baseElevation.value} {baseElevation.unit}</li>
                     <li><span className="capitalize">Summit Elevation:</span> {summitElevation.value} {summitElevation.unit}</li>
+                    <li><span className="capitalize">Average Annual Snowfall:</span> {annualSnowfall.value} {annualSnowfall.unit}</li>
                     <li><span className="capitalize">Skiable Terrain:</span> {skiableTerrainSize.value} {skiableTerrainSize.unit}</li>
                     <li><span className="capitalize">Lifts: {totalLiftCount}</span></li>
                     <li className='flex flex-row items-center divide-x-2 divide-slate-600 divide-dashed py-2'>
