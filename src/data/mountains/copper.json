@@ -161,5 +161,98 @@
             }
         }
     ],
-    "costBreakdown": {}
+    "costBreakdown": {
+        "gear": {
+            "skiRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 25.55,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 9,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.pioneersportscolorado.com/rentals/ski-rental-packages/"
+            },
+            "snowboardRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 32.85,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 9,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.pioneersportscolorado.com/rentals/snowboard-rental-packages/"
+            },
+            "skiJacket": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 25,
+                    "currency": "USD"
+                },
+                "source": "https://www.pioneersportscolorado.com/ski-clothes-gear-rentals/"
+            },
+            "snowPants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 25,
+                    "currency": "USD"
+                },
+                "source": "https://www.pioneersportscolorado.com/ski-clothes-gear-rentals/"
+            }
+        },
+        "lodging": {
+            "rateUnit": "full-trip",
+            "price": {
+                "amount": 3400,
+                "currency": "USD"
+            }
+        },
+        "food": {
+            "groceries": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 60,
+                    "currency": "USD"
+                },
+                "source": "https://www.citymarket.com/stores/grocery/co/breckenridge/breckenridge/620/00430?cid=loc_62000430_gmb"
+            },
+            "restaurants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 25,
+                    "currency": "USD"
+                }
+            }
+        },
+        "liftTickets": {
+            "windowPrice": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 116.67,
+                    "currency": "USD"
+                },
+                "source": "https://buy.coppercolorado.com/l/lift-tickets/p/copper-mountain-lift-tickets-es?1101=1822&1102=1825&1103=2026-02-17"
+            },
+            "passProduct": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 142.25,
+                    "currency": "USD"
+                },
+                "source": "https://www.epicorikon.com/passes/compare?p=ikon-session-pass-4-day"
+            }
+        }
+    }
 }

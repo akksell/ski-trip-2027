@@ -251,5 +251,98 @@
             }
         }
     ],
-    "costBreakdown": {}
+    "costBreakdown": {
+        "gear": {
+            "skiRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 27,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 7.50,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.bluevalleyski.com/keystone-ski-rentals/"
+            },
+            "snowboardRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 27,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 7.50,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.bluevalleyski.com/keystone-ski-rentals/"
+            },
+            "skiJacket": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 15,
+                    "currency": "USD"
+                },
+                "source": "https://www.bluevalleyski.com/keystone-ski-rentals/"
+            },
+            "snowPants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 15,
+                    "currency": "USD"
+                },
+                "source": "https://www.bluevalleyski.com/keystone-ski-rentals/"
+            }
+        },
+        "lodging": {
+            "rateUnit": "full-trip",
+            "price": {
+                "amount": 3200,
+                "currency": "USD"
+            }
+        },
+        "food": {
+            "groceries": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 60,
+                    "currency": "USD"
+                },
+                "source": "https://www.citymarket.com/stores/grocery/co/breckenridge/breckenridge/620/00430?cid=loc_62000430_gmb"
+            },
+            "restaurants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 35,
+                    "currency": "USD"
+                }
+            }
+        },
+        "liftTickets": {
+            "windowPrice": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 171,
+                    "currency": "USD"
+                },
+                "source": "https://www.keystoneresort.com/Plan-Your-Trip/Lift-Access/tickets"
+            },
+            "passProduct": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 119.25,
+                    "currency": "USD"
+                },
+                "source": "https://www.epicorikon.com/passes/compare?p=epic-4-day-pass"
+            }
+        }
+    }
 }

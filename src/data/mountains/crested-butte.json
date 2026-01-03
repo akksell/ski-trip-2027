@@ -435,5 +435,82 @@
             }
         }
     ],
-    "costBreakdown": {}
+    "costBreakdown": {
+        "gear": {
+            "skiRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 41.56,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 16.95,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.christysports.com/store-locations/crested-butte.html"
+            },
+            "snowboardRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 45.60,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 15,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.crestedbutteskirentals.com/equipment-rates/butte-co-flagship/"
+            }
+        },
+        "lodging": {
+            "rateUnit": "full-trip",
+            "price": {
+                "amount": 3650,
+                "currency": "USD"
+            }
+        },
+        "food": {
+            "groceries": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 70,
+                    "currency": "USD"
+                },
+                "source": "https://www.citymarket.com/stores/grocery/co/breckenridge/breckenridge/620/00430?cid=loc_62000430_gmb"
+            },
+            "restaurants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 20,
+                    "currency": "USD"
+                }
+            }
+        },
+        "liftTickets": {
+            "windowPrice": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 143,
+                    "currency": "USD"
+                },
+                "source": "https://www.skicb.com/plan-your-trip/lift-access/tickets.aspx"
+            },
+            "passProduct": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 119.25,
+                    "currency": "USD"
+                },
+                "source": "https://www.epicorikon.com/passes/compare?p=epic-4-day-pass"
+            }
+        }
+    }
 }

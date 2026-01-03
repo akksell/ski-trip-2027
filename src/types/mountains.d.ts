@@ -4,6 +4,8 @@ import {
     resortStyleSchema,
     unitSchema,
     lodgingOptionSchema,
+    breakdownItemSchema,
+    costBreakdownSchema,
     mountainSchema
 } from '../schemas/mountains.ts';
 
@@ -14,6 +16,10 @@ export type ResortStyle = z.infer<typeof resortStyleSchema>;
 export type Unit = z.infer<typeof unitSchema>;
 
 export type LodgingOption = z.infer<typeof lodgingOptionSchema>;
+
+export type BreakdownItem = z.infer<typeof breakdownItemSchema>;
+
+export type CostBreakdown = z.infer<typeof costBreakdownSchema>;
 
 export type Mountain = z.infer<typeof mountainSchema>;
 

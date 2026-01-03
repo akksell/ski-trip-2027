@@ -38,6 +38,38 @@ export const lodgingOptionSchema = z.object({
     }),
 });
 
+export const breakdownItemSchema = z.object({
+    rateUnit: z.union([z.literal('daily'), z.literal('full-trip')]).optional(), 
+    price: priceSchema,
+    source: z.string().optional(),
+});
+
+export const costBreakdownSchema = z.object({
+    gear: z.object({
+        skiRental: breakdownItemSchema.extend({
+            helmet: breakdownItemSchema.extend({
+                included: z.boolean(),
+            }).optional(),
+        }),
+        snowboardRental: breakdownItemSchema.extend({
+            helmet: breakdownItemSchema.extend({
+                included: z.boolean(),
+            }).optional(),
+        }),
+        skiJacket: breakdownItemSchema.optional(),
+        snowPants: breakdownItemSchema.optional(),
+    }),
+    lodging: breakdownItemSchema,
+    food: z.object({
+        groceries: breakdownItemSchema,
+        restaurants: breakdownItemSchema,
+    }),
+    liftTickets: z.object({
+        windowPrice: breakdownItemSchema,
+        passProduct: breakdownItemSchema.optional(),
+    }),
+});
+
 export const mountainSchema = z.object({
     resortName: z.string(),
     resortStyle: resortStyleSchema,
@@ -82,8 +114,6 @@ export const mountainSchema = z.object({
         pros: z.array(z.string()),
         cons: z.array(z.string()),
     }),
-    costBreakdown: z.object({
-        // TODO
-    }),
+    costBreakdown: costBreakdownSchema,
     exampleLodgingOptions: z.array(lodgingOptionSchema),
 });

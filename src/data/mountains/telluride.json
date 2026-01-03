@@ -43,5 +43,69 @@
         "cons": []
     },
     "exampleLodgingOptions": [],
-    "costBreakdown": {}
+    "costBreakdown": {
+        "gear": {
+            "skiRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 0,
+                        "currency": "USD"
+                    }
+                }
+            },
+            "snowboardRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 0,
+                        "currency": "USD"
+                    }
+                }
+            }
+        },
+        "lodging": {
+            "rateUnit": "full-trip",
+            "price": {
+                "amount": 0,
+                "currency": "USD"
+            }
+        },
+        "food": {
+            "groceries": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 60,
+                    "currency": "USD"
+                }
+            },
+            "restaurants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "liftTickets": {
+            "windowPrice": {
+                "price": {
+                    "amount": 0,
+                    "currency": "USD"
+                }
+            }
+        }
+    }
 }

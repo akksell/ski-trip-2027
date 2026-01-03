@@ -228,5 +228,98 @@
             }
         }
     ],
-    "costBreakdown": {}
+    "costBreakdown": {
+        "gear": {
+            "skiRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 39.20,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 8,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.blueriversports.com/equipment-rates#skis"
+            },
+            "snowboardRental": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 44.80,
+                    "currency": "USD"
+                },
+                "helmet": {
+                    "included": false,
+                    "rateUnit": "daily",
+                    "price": {
+                        "amount": 8,
+                        "currency": "USD"
+                    }
+                },
+                "source": "https://www.blueriversports.com/equipment-rates#skis"
+            },
+            "skiJacket": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 14.40,
+                    "currency": "USD"
+                },
+                "source": "https://www.blueriversports.com/equipment-rates#accessories"
+            },
+            "snowPants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 10.40,
+                    "currency": "USD"
+                },
+                "source": "https://www.blueriversports.com/equipment-rates#accessories"
+            }
+        },
+        "lodging": {
+            "rateUnit": "full-trip",
+            "price": {
+                "amount": 3800,
+                "currency": "USD"
+            }
+        },
+        "food": {
+            "groceries": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 60,
+                    "currency": "USD"
+                },
+                "source": "https://www.citymarket.com/stores/grocery/co/breckenridge/breckenridge/620/00430?cid=loc_62000430_gmb"
+            },
+            "restaurants": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 30,
+                    "currency": "USD"
+                }
+            }
+        },
+        "liftTickets": {
+            "windowPrice": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 215,
+                    "currency": "USD"
+                },
+                "source": "https://www.breckenridge.com/plan-your-trip/lift-access/tickets.aspx"
+            },
+            "passProduct": {
+                "rateUnit": "daily",
+                "price": {
+                    "amount": 119.25,
+                    "currency": "USD"
+                },
+                "source": "https://www.epicorikon.com/passes/compare?p=epic-4-day-pass"
+            }
+        }
+    }
 }
