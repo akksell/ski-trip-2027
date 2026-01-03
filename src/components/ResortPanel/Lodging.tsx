@@ -109,11 +109,11 @@ const Lodging = ({ className, lodgingOptions }: LodgingProps) => {
                 {!isLodgingOptionsEmpty && (
                     <div className="flex gap-2">
                         {/* TODO: accessibility is bad here. fix it */}
-                        <button type="button" onClick={handlePreviousBtnClick} disabled={isPreviousBtnDisabled} className="cursor-pointer">
-                            <ArrowLeft className="fill-slate-300 hover:fill-slate-400 transition-all duration-200" />
+                        <button type="button" onClick={handlePreviousBtnClick} disabled={isPreviousBtnDisabled} className="cursor-pointer group disabled:cursor-not-allowed">
+                            <ArrowLeft className="fill-slate-300 group-hover:fill-slate-400 transition-all duration-200 group-disabled:fill-slate-200" />
                         </button>
-                        <button type="button" onClick={handleNextBtnClick} disabled={isNextBtnDisabled} className="cursor-pointer">
-                            <ArrowRight className="fill-slate-300 hover:fill-slate-400 transition-all duration-200" />
+                        <button type="button" onClick={handleNextBtnClick} disabled={isNextBtnDisabled} className="cursor-pointer group disabled:cursor-not-allowed">
+                            <ArrowRight className="fill-slate-300 group-hover:fill-slate-400 transition-all duration-200 group-disabled:fill-slate-200" />
                         </button>
                     </div>
                )}
