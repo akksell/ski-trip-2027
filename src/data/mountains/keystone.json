@@ -42,6 +42,214 @@
         "pros": [],
         "cons": []
     },
-    "exampleLodgingOptions": [],
+    "exampleLodgingOptions": [
+        {
+            "id": "ks-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/19832300",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-19832300/original/44e7c3b7-c2fb-4460-8da1-c74f3f3d7662.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 4,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/ks-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2405,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-2",
+            "accommodationURL": "https://www.airbnb.com/rooms/1582703003139679193",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1582703003139679193/original/353ad1b0-5be4-452d-a241-ed10200e1bd9.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/ks-lodge-2.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2694,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-3",
+            "accommodationURL": "https://www.airbnb.com/rooms/21762360",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-21762360/original/1179674d-d6f5-4c72-be7d-3fbc9c049318.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 2.5,
+            "screenshotPath": "/lodging/proof/ks-lodge-3.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-12-29",
+                "price": {
+                    "amount": 3084,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-4",
+            "accommodationURL": "https://www.airbnb.com/rooms/1287889546621243580",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1287889546621243580/original/e08bf971-762b-4047-a93d-58617179fabb.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/ks-lodge-4.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3109,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-5",
+            "accommodationURL": "https://www.airbnb.com/rooms/1492257779427167052",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1492257779427167052/original/3aef0649-bd95-4984-91cc-d83ad3d65ec5.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/ks-lodge-5.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3659,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-6",
+            "accommodationURL": "https://www.airbnb.com/rooms/21242329",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-21242329/original/761b287c-b4b6-45f1-b739-8d6f14094129.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/ks-lodge-6.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3755,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-7",
+            "accommodationURL": "https://www.airbnb.com/rooms/884112922035172444",
+            "thumbnail": "https://a0.muscache.com/im/pictures/airflow/Hosting-884112922035172444/original/8a2eae64-a26f-437a-a12e-91700d8cac46.jpg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/ks-lodge-7.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4132,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-8",
+            "accommodationURL": "https://www.airbnb.com/rooms/46903298",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46903298/original/e1f52467-f069-4dac-9e88-d8d7102045d0.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 11,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/ks-lodge-8.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4194,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "ks-lodge-9",
+            "accommodationURL": "https://www.airbnb.com/rooms/1272000729489808213",
+            "thumbnail": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjAwMDcyOTQ4OTgwODIxMw==/original/a193946b-a6c0-4aa2-b5ce-697461f809cb.png?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 11,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/ks-lodge-9.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4280,
+                    "currency": "USD"
+                }
+            }
+        }
+    ],
     "costBreakdown": {}
 }

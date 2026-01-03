@@ -42,6 +42,191 @@
         "pros": [],
         "cons": []
     },
-    "exampleLodgingOptions": [],
+    "exampleLodgingOptions": [
+        {
+            "id": "bk-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/53586721",
+            "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-53586721/original/609715bc-ef07-47af-afa9-9bd333e4a653.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/bk-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2404,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-2",
+            "accommodationURL": "https://www.airbnb.com/rooms/786188950831418322",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-786188950831418322/original/c1898082-ce72-4107-a939-7ba402ca679f.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 4,
+            "numberOfBaths": 4,
+            "screenshotPath": "/lodging/proof/bk-lodge-2.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3496,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-3",
+            "accommodationURL": "https://www.airbnb.com/rooms/1539250684827747926",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1539250684827747926/original/7c042cfe-61c0-4772-810d-d38f87931d00.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 5,
+            "numberOfBaths": 2.5,
+            "screenshotPath": "/lodging/proof/bk-lodge-3.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3565,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-4",
+            "accommodationURL": "https://www.airbnb.com/rooms/1506036873885129119",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1506036873885129119/original/b4b3283a-a5ba-4663-a3f3-934169287626.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 7,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/bk-lodge-4.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3979,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-5",
+            "accommodationURL": "https://www.airbnb.com/rooms/19751631",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-19751631/original/0dcde7e5-ea57-46fa-97cf-333a2c8d9b02.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 4,
+            "screenshotPath": "/lodging/proof/bk-lodge-5.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4269,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-6",
+            "accommodationURL": "https://www.airbnb.com/rooms/725300703029573245",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-725300703029573245/original/0311dec8-920f-4a63-acf6-1ea0b5c2eb09.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/bk-lodge-6.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4519,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "bk-lodge-7",
+            "accommodationURL": "https://www.airbnb.com/rooms/41695586",
+            "thumbnail": "https://a0.muscache.com/im/pictures/hosting/Hosting-41695586/original/0e9661a7-5802-47b8-b044-f47ab447c9eb.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/bk-lodge-7.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 5410,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cp-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/1353835045405915596",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1353835045405915596/original/8dca291e-9ba8-4465-88e2-7d2ca042a62e.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 4,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cp-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3005,
+                    "currency": "USD"
+                }
+            }
+        }
+    ],
     "costBreakdown": {}
 }

@@ -42,6 +42,398 @@
         "pros": [],
         "cons": []
     },
-    "exampleLodgingOptions": [],
+    "exampleLodgingOptions": [
+        {
+            "id": "cb-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/1186403882287356793",
+            "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-1186403882287356793/original/cf3119fb-1514-476d-8043-b17ec3b58ece.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cb-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2305,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-2",
+            "accommodationURL": "https://www.vrbo.com/4997132",
+            "thumbnail": "https://media.vrbo.com/lodging/124000000/123830000/123823900/123823849/cf74d50c.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-2.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3404,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-3",
+            "accommodationURL": "https://www.airbnb.com/rooms/43695851",
+            "thumbnail": "https://a0.muscache.com/im/pictures/9365ae58-8989-4fce-8373-94955c537ff7.jpg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 5,
+            "numberOfBaths": 4.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-3.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3789,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-4",
+            "accommodationURL": "https://www.airbnb.com/rooms/15705223",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-15705223/original/f32617b9-835a-4efa-89f9-c01f4e0a796e.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 4,
+            "numberOfBaths": 2.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-4.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2570,
+                    "currency": "USD"
+                }
+            }
+        },
+        { "id": "cb-lodge-5",
+            "accommodationURL": "https://www.vrbo.com/3713653",
+            "thumbnail": "https://media.vrbo.com/lodging/101000000/100420000/100417200/100417166/w1200h799x0y1-42554f99.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 4,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/cb-lodge-5.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3249,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-6",
+            "accommodationURL": "https://www.airbnb.com/rooms/1431255647274991122",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1431255647274991122/original/1b59deb7-25a4-44d1-a929-49e172d91c07.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cb-lodge-6.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3974,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-7",
+            "accommodationURL": "https://www.vrbo.com/912464",
+            "thumbnail": "https://media.vrbo.com/lodging/24000000/23140000/23139300/23139207/53c8a3c8.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 7,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cb-lodge-7.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4015,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-8",
+            "accommodationURL": "https://www.vrbo.com/2210203",
+            "thumbnail": "https://media.vrbo.com/lodging/65000000/64620000/64610400/64610386/1df7c65e.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 12,
+            "numberOfBeds": 7,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-8.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2197,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-9",
+            "accommodationURL": "https://www.airbnb.com/rooms/923991555643506814",
+            "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-923991555643506814/original/f9bb914f-a31a-406c-8ef8-687450c5c653.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/cb-lodge-9.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4015,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-10",
+            "accommodationURL": "https://www.vrbo.com/9464259ha",
+            "thumbnail": "https://media.vrbo.com/lodging/54000000/53970000/53969300/53969217/87d16a1c.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 4.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-10.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4283,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-11",
+            "accommodationURL": "https://www.airbnb.com/rooms/958655102553833454",
+            "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-958655102553833454/original/35d4786b-2b41-4ff5-b19d-4a42cd2456e7.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 5,
+            "numberOfBaths": 4,
+            "screenshotPath": "/lodging/proof/cb-lodge-11.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4556,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-12",
+            "accommodationURL": "https://www.airbnb.com/rooms/995724096583180117",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-995724096583180117/original/dc61ca19-092b-44ef-9840-a8040ebbf3c7.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cb-lodge-12.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 5228,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-13",
+            "accommodationURL": "https://www.airbnb.com/rooms/43002628",
+            "thumbnail": "https://a0.muscache.com/im/pictures/ec4b0826-1cdd-411a-b507-32ead5b09110.jpg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-13.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 5273,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-14",
+            "accommodationURL": "https://www.vrbo.com/1830906",
+            "thumbnail": "https://media.vrbo.com/lodging/45000000/44420000/44417100/44417087/e33193ee.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-14.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 5111,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-15",
+            "accommodationURL": "https://www.vrbo.com/4655301",
+            "thumbnail": "https://media.vrbo.com/lodging/118000000/117830000/117825300/117825217/787381eb.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 4,
+            "screenshotPath": "/lodging/proof/cb-lodge-15.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 4213,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-16",
+            "accommodationURL": "https://www.vrbo.com/4371210",
+            "thumbnail": "https://media.vrbo.com/lodging/113000000/112010000/112005800/112005799/6927dc8e.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3.5,
+            "screenshotPath": "/lodging/proof/cb-lodge-16.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 5105,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cb-lodge-17",
+            "accommodationURL": "https://www.hotels.com/ho483876/old-town-inn-crested-butte-united-states-of-america/?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&rm1=a3&rm2=a3&rm3=a3&regionId=6089703&destination=Crested+Butte+Mountain+Resort%2C+Crested+Butte%2C+Colorado%2C+United+States+of+America&destType=MARKET&neighborhoodId=944508843476512768&latLong=38.896748%2C-106.943355&sort=RECOMMENDED&top_dp=3453&top_cur=USD&userIntent=&selectedRoomType=323815872&selectedRatePlan=392863133&expediaPropertyId=9592335",
+            "thumbnail": "https://images.trvl-media.com/lodging/10000000/9600000/9592400/9592335/bd96f169.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/cb-lodge-17.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3453,
+                    "currency": "USD"
+                }
+            }
+        }
+    ],
     "costBreakdown": {}
 }

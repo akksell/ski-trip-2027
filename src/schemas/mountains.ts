@@ -17,19 +17,23 @@ export const unitSchema = z.union([
 ]);
 
 export const lodgingOptionSchema = z.object({
-    id: z.number(),
+    id: z.string(),
     accommodationURL: z.string(),
+    thumbnail: z.string(),
     searchParameters: z.object({
         journey: z.object({
-            arrival: z.date(),
-            departure: z.date(),
+            arrival: z.string().date(),
+            departure: z.string().date(),
         }),
         numberOfGuests: z.number().gt(0),
-        numberOfRooms: z.number().gt(0).optional()
+        numberOfRooms: z.number().gt(0).optional(),
     }),
+    numberOfBeds: z.number().gt(0),
+    numberOfBaths: z.number().gt(0),
+    maxNumberGuests: z.number().gt(0),
     screenshotPath: z.string(),
     recordedPrice: z.object({
-        recordedOnDate: z.date(),
+        recordedOnDate: z.string().date(),
         price: priceSchema,
     }),
 });

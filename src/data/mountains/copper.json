@@ -42,6 +42,124 @@
         "pros": [],
         "cons": []
     },
-    "exampleLodgingOptions": [],
+    "exampleLodgingOptions": [
+        {
+            "id": "cp-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/1353835045405915596",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1353835045405915596/original/8dca291e-9ba8-4465-88e2-7d2ca042a62e.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 4,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/cp-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 3005,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cp-lodge-2",
+            "accommodationURL": "https://www.airbnb.com/rooms/725378788997879855",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-725378788997879855/original/29499b20-061c-463c-b69e-d0facf1ea736.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 5,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/cp-lodge-2.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-02",
+                "price": {
+                    "amount": 2671,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cp-lodge-3",
+            "accommodationURL": "https://www.airbnb.com/rooms/22867166",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-22867166/original/a1868079-a8f6-44b1-ad86-c90fba0b459f.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 4,
+            "screenshotPath": "/lodging/proof/cp-lodge-3.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 3638,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cp-lodge-4",
+            "accommodationURL": "https://www.expedia.com/Frisco-Hotels-Snowshoe-Motel.h990221.Hotel-Information?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&pwa_ts=1766978084095&useRewards=false&rm1=a3&rm2=a3&rm3=a3&regionId=55714&destination=Frisco%2C+Colorado%2C+United+States+of+America&destType=MARKET&latLong=39.575882%2C-106.097702&sort=RECOMMENDED&top_cur=USD&userIntent=&selectedRoomType=202037365&selectedRatePlan=210437093",
+            "thumbnail": "https://images.trvl-media.com/lodging/1000000/1000000/990300/990221/0d0a3cf7.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/cp-lodge-4.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 3393,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "cp-lodge-5",
+            "accommodationURL": "https://www.expedia.com/Frisco-Hotels-Ramada-By-Wyndham-Frisco.h202136.Hotel-Information?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&rm1=a3&rm2=a3&rm3=a3&regionId=55714&destination=Frisco%2C+Colorado%2C+United+States+of+America&destType=MARKET&latLong=39.575882%2C-106.097702&sort=RECOMMENDED&top_dp=3656&top_cur=USD&userIntent=&selectedRoomType=63942&selectedRatePlan=1119247",
+            "thumbnail": "https://images.trvl-media.com/lodging/1000000/210000/202200/202136/5c92c87c.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/cp-lodge-5.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 3656,
+                    "currency": "USD"
+                }
+            }
+        }
+    ],
     "costBreakdown": {}
 }
