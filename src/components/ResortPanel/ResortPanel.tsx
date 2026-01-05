@@ -27,7 +27,15 @@ const ResortPanel = ({ mountain, isActive }: ResortPanelProps) => {
                 </div>
             </div>
             <Lodging className="py-4 px-2 border-b-2 border-slate-300" lodgingOptions={mountain.exampleLodgingOptions} />
-            <CostBreakdown className="py-4 px-2" />
+            <CostBreakdown
+                className="py-4 px-2"
+                gear={mountain.costBreakdown.gear}
+                lodging={mountain.costBreakdown.lodging}
+                food={mountain.costBreakdown.food}
+                liftTickets={mountain.costBreakdown.liftTickets}
+                mountainId={mountain.resortName}
+                seasonPassType={mountain.seasonPassType}
+            />
         </div>
     );
 };
