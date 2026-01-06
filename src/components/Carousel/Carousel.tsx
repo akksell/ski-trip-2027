@@ -30,7 +30,7 @@ const Carousel = ({ items }: CarouselProps) => {
 
     return (
         <div className="flex flex-col w-full relative z-10 pt-24 pb-16">
-            <div className="w-screen flex flex-row justify-around items-center bg-center bg-linear-[transparent_27.5%,#4e4978_27.5%,#4e4978_28.5%,transparent_28.5%]">
+            <div className="w-screen flex flex-row justify-around items-center bg-center bg-linear-[transparent_27.5%,#4e4978_27.5%,#4e4978_28.5%,transparent_28.5%] pb-8">
                 <button type="button" className="cursor-pointer md:mx-16 px-2 py-2 z-20 self-end md:mb-12 lg:mb-24 xl:mb-48" onClick={handlePrevItemButtonAction}>
                     <ArrowLeft className="fill-slate-600 hover:fill-slate-900 transition-all duration-200 w-16 h-16" />
                 </button>

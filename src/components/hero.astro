@@ -6,16 +6,32 @@ import Slopes from '../assets/images/2027/ski-slopes.png';
 interface HeroProps {
     title: string;
     subtitle: string;
+    textLeft: string;
+    textRight: string;
 }
 
-const { title, subtitle } = Astro.props;
+const { title, textLeft, textRight }: HeroProps = Astro.props;
 ---
 <div class="@container bg-linear-to-b from-sky-600 to-sky-200">
-    <!-- TODO: mobile styling -->
     <div class="flex w-full h-full justify-center">
-        <div class="flex w-full justify-center gap-16 md:justify-around absolute md:-translate-x-8 translate-y-9/4 md:translate-y-7/4 xl:translate-y-9/4 z-2">
-            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-right">{title}</h1>
-            <h1 class="font-clouds font-bold text-3xl md:text-8xl lg:text-[8rem] xl:text-12xl text-sky-50 uppercase md:text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-left">{subtitle}</h1>
+        <div class="flex w-full justify-center absolute z-2">
+            <svg class="font-clouds font-bold md:px-24 xl:px-32 2xl:px-64 text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text" viewBox="50 100 440 100">
+                <path id="curve" d="M 96 187 C 100 180.9 184 162 270 164 C 368 163 445.4 181.7 449.7 188.4" />
+                <text class="fill-slate-900 text-5xl cloud-text">
+                    <textPath xlink:href="#curve">
+                        Ski Trip 2027
+                    </textPath>
+                </text>
+                <text class="fill-sky-50 text-5xl scale-98 translate-x-1.5" stroke="#000">
+                    <textPath xlink:href="#curve">
+                        Ski Trip 2027
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div class="flex w-full justify-center gap-16 sm:justify-around absolute sm:translate-x-4 translate-y-11/4 2xl:translate-y-13/4 z-2">
+            <h1 class="font-clouds font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-12xl 2xl:text-13xl text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-left">{textLeft}</h1>
+            <h1 class="font-clouds font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-12xl 2xl:text-13xl text-sky-50 uppercase md:text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-right">{textRight}</h1>
         </div>
         <Mountain style="z-index: 1;" class="mt-16 md:mt-24 lg:mt-28" />
     </div>
@@ -23,15 +39,26 @@ const { title, subtitle } = Astro.props;
 </div>
 
 <style>
+path {
+    fill: transparent;
+}
 .cloud-text {
     -webkit-text-stroke: 1px #000;
 }
-.cloud-left {
-    transform: perspective(20rem) rotateY(20deg) skewX(-15deg);
+.cloud-right {
+    transform: perspective(10rem) rotateY(27deg) rotateZ(-2deg) skewX(-20deg);
     transform-origin: left center;
 }
-.cloud-right {
-    transform: perspective(20rem) rotateY(-20deg) skewX(-15deg);
+.cloud-left {
+    transform: perspective(10rem) rotateY(-26deg) rotateZ(2deg) skewX(-20deg);
     transform-origin: right center;
+}
+@media (width >= 48rem) {
+    .cloud-right {
+        transform: perspective(20rem) rotateY(25deg) skewX(-15deg);
+    }
+    .cloud-left {
+        transform: perspective(20rem) rotateY(-25deg) skewX(-15deg);
+    }
 }
 </style>

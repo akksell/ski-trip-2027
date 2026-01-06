@@ -28,10 +28,10 @@ const MountainInfo = ({ resortName, resortStyle, city, state, seasonPassType, mo
             <div>
                 <h3 className="font-bold text-lg capitalize">Mountain Statistics</h3>
                 <ul>
-                    <li><span className="capitalize">Base Elevation:</span> {baseElevation.value} {baseElevation.unit}</li>
-                    <li><span className="capitalize">Summit Elevation:</span> {summitElevation.value} {summitElevation.unit}</li>
-                    <li><span className="capitalize">Average Annual Snowfall:</span> {annualSnowfall.value} {annualSnowfall.unit}</li>
-                    <li><span className="capitalize">Skiable Terrain:</span> {skiableTerrainSize.value} {skiableTerrainSize.unit}</li>
+                    <li><span className="capitalize">Base Elevation:</span> {baseElevation.value.toLocaleString('en-US')} {baseElevation.unit}</li>
+                    <li><span className="capitalize">Summit Elevation:</span> {summitElevation.value.toLocaleString('en-US')} {summitElevation.unit}</li>
+                    <li><span className="capitalize">Average Annual Snowfall:</span> {annualSnowfall.value.toLocaleString('en-US')} {annualSnowfall.unit}</li>
+                    <li><span className="capitalize">Skiable Terrain:</span> {skiableTerrainSize.value.toLocaleString('en-US')} {skiableTerrainSize.unit}</li>
                     <li><span className="capitalize">Lifts: {totalLiftCount}</span></li>
                     <li className='flex flex-row items-center divide-x-2 divide-slate-600 divide-dashed py-2'>
                         <ul className="pr-4">
