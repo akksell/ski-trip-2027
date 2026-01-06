@@ -42,44 +42,234 @@
         "pros": [],
         "cons": []
     },
-    "exampleLodgingOptions": [],
+    "exampleLodgingOptions": [
+        {
+            "id": "tr-lodge-1",
+            "accommodationURL": "https://www.airbnb.com/rooms/1558893670659468459",
+            "thumbnail": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1558893670659468459/original/e44d42d4-0be9-43b1-804e-661cc9be0fd8.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 9,
+            "numberOfBeds": 6,
+            "numberOfBaths": 3,
+            "screenshotPath": "/lodging/proof/tr-lodge-1.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 5025,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-2",
+            "accommodationURL": "https://www.airbnb.com/rooms/45343770",
+            "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-45343770/original/fb7ffdba-68ee-4b20-a57d-e9286e18760b.jpeg?im_w=720",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 2.5,
+            "screenshotPath": "/lodging/proof/tr-lodge-2.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 3635,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-3",
+            "accommodationURL": "https://www.expedia.com/Ouray-Hotels-Matterhorn-Inn-Ouray.h9336141.Hotel-Information?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&rm1=a3&rm2=a3&rm3=a3&regionId=6089775&destination=Telluride+Ski+Resort%2C+Telluride%2C+Colorado%2C+United+States+of+America&destType=MARKET&latLong=37.936187%2C-107.845128&sort=PRICE_LOW_TO_HIGH&top_dp=2821&top_cur=USD&userIntent=&selectedRoomType=315754743&selectedRatePlan=384515145",
+            "thumbnail": "https://images.trvl-media.com/lodging/10000000/9340000/9336200/9336141/e2de3c02.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/tr-lodge-3.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 2821,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-4",
+            "accommodationURL": "https://www.expedia.com/Ouray-Hotels-Quality-Inn.h42105.Hotel-Information?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&rm1=a3&rm2=a3&rm3=a3&regionId=6089775&destination=Telluride+Ski+Resort%2C+Telluride%2C+Colorado%2C+United+States+of+America&destType=MARKET&latLong=37.936187%2C-107.845128&sort=PRICE_LOW_TO_HIGH&top_dp=2203&top_cur=USD&userIntent=&selectedRoomType=201303842&selectedRatePlan=206324582",
+            "thumbnail": "https://images.trvl-media.com/lodging/1000000/50000/42200/42105/c35f0422.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/tr-lodge-4.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 2203,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-5",
+            "accommodationURL": "https://www.expedia.com/Ouray-Hotels-Timber-Ridge-Lodge.h8471927.Hotel-Information?chkin=2026-02-15&chkout=2026-02-20&x_pwa=1&rm1=a3&rm2=a3&rm3=a3&regionId=6089775&destination=Telluride+Ski+Resort%2C+Telluride%2C+Colorado%2C+United+States+of+America&destType=MARKET&latLong=37.936187%2C-107.845128&sort=PRICE_LOW_TO_HIGH&top_dp=2375&top_cur=USD&userIntent=&selectedRoomType=200724202&selectedRatePlan=204509472",
+            "thumbnail": "https://images.trvl-media.com/lodging/9000000/8480000/8472000/8471927/7ac4a44e.jpg?impolicy=fcrop&w=720&h=540&quality=medium",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9,
+                "numberOfRooms": 3
+            },
+            "maxNumberGuests": 4,
+            "numberOfBeds": 2,
+            "numberOfBaths": 1,
+            "screenshotPath": "/lodging/proof/tr-lodge-5.png",
+            "recordedPrice": {
+                "recordedOnDate": "2025-12-29",
+                "price": {
+                    "amount": 2375,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-6",
+            "accommodationURL": "https://www.vrbo.com/3703677",
+            "thumbnail": "https://media.vrbo.com/lodging/101000000/100310000/100305300/100305220/w1242h741x3y0-2ff6ba5c.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 2.5,
+            "screenshotPath": "/lodging/proof/tr-lodge-6.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-05",
+                "price": {
+                    "amount": 3084,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-7",
+            "accommodationURL": "https://www.vrbo.com/4513265",
+            "thumbnail": "https://media.vrbo.com/lodging/115000000/114490000/114486200/114486151/w1199h799x1y1-e15ca593.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 16,
+            "numberOfBeds": 9,
+            "numberOfBaths": 5,
+            "screenshotPath": "/lodging/proof/tr-lodge-7.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-05",
+                "price": {
+                    "amount": 4328,
+                    "currency": "USD"
+                }
+            }
+        },
+        {
+            "id": "tr-lodge-8",
+            "accommodationURL": "https://www.vrbo.com/56347",
+            "thumbnail": "https://media.vrbo.com/lodging/36000000/35360000/35352700/35352629/cd189da3.jpg?impolicy=resizecrop&rw=720&ra=fit",
+            "searchParameters": {
+                "journey": {
+                    "arrival": "2026-02-15",
+                    "departure": "2026-02-20"
+                },
+                "numberOfGuests": 9
+            },
+            "maxNumberGuests": 10,
+            "numberOfBeds": 6,
+            "numberOfBaths": 2,
+            "screenshotPath": "/lodging/proof/tr-lodge-8.png",
+            "recordedPrice": {
+                "recordedOnDate": "2026-01-05",
+                "price": {
+                    "amount": 5110,
+                    "currency": "USD"
+                }
+            }
+        }
+    ],
     "costBreakdown": {
         "gear": {
             "skiRental": {
-                "rateUnit": "daily",
+                "rateUnit": "full-trip",
                 "price": {
-                    "amount": 0,
+                    "amount": 165.60,
                     "currency": "USD"
                 },
                 "helmet": {
                     "included": false,
-                    "rateUnit": "daily",
+                    "rateUnit": "full-trip",
                     "price": {
-                        "amount": 0,
+                        "amount": 28.8,
                         "currency": "USD"
                     }
-                }
+                },
+                "source": "https://www.telluridesports.com/winter-rentals"
             },
             "snowboardRental": {
-                "rateUnit": "daily",
+                "rateUnit": "full-trip",
                 "price": {
-                    "amount": 0,
+                    "amount": 168,
                     "currency": "USD"
                 },
                 "helmet": {
                     "included": false,
-                    "rateUnit": "daily",
+                    "rateUnit": "full-trip",
                     "price": {
-                        "amount": 0,
+                        "amount": 28.8,
                         "currency": "USD"
                     }
-                }
+                },
+                "source": "https://www.telluridesports.com/winter-rentals"
             }
         },
         "lodging": {
             "rateUnit": "full-trip",
             "price": {
-                "amount": 0,
+                "amount": 4500,
                 "currency": "USD"
             }
         },
@@ -87,14 +277,14 @@
             "groceries": {
                 "rateUnit": "daily",
                 "price": {
-                    "amount": 60,
+                    "amount": 15,
                     "currency": "USD"
                 }
             },
             "restaurants": {
                 "rateUnit": "daily",
                 "price": {
-                    "amount": 0,
+                    "amount": 30,
                     "currency": "USD"
                 }
             }
@@ -102,7 +292,7 @@
         "liftTickets": {
             "windowPrice": {
                 "price": {
-                    "amount": 0,
+                    "amount": 245,
                     "currency": "USD"
                 }
             }

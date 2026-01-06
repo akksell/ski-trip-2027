@@ -223,7 +223,7 @@
             "groceries": {
                 "rateUnit": "daily",
                 "price": {
-                    "amount": 60,
+                    "amount": 14,
                     "currency": "USD"
                 },
                 "source": "https://www.citymarket.com/stores/grocery/co/breckenridge/breckenridge/620/00430?cid=loc_62000430_gmb"
