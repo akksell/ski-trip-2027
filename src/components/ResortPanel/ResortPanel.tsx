@@ -10,7 +10,7 @@ interface ResortPanelProps {
 
 const ResortPanel = ({ mountain, isActive }: ResortPanelProps) => {
     return (
-        <div className={`flex flex-col px-8 md:px-24 xl:px-48 transition-opacity duration-500 ease-in-out delay-100 ${getActiveTransition(isActive)}`} aria-hidden={!isActive}>
+        <div className={`flex flex-col mt-8 px-8 md:px-24 xl:px-48 transition-opacity duration-500 ease-in-out delay-100 ${getActiveTransition(isActive)}`} aria-hidden={!isActive}>
             <div className="flex flex-row flex-wrap justify-center gap-x-24 pb-4 border-b-2 border-slate-300" aria-hidden={!isActive}>
                 <MountainInfo
                     resortName={mountain.resortName}
