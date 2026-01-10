@@ -15,19 +15,7 @@ const { title, textLeft, textRight }: HeroProps = Astro.props;
 <div class="@container bg-linear-to-b from-sky-600 to-sky-200">
     <div class="flex w-full h-full justify-center">
         <div class="flex w-full justify-center absolute z-2">
-            <svg class="font-clouds font-bold md:px-24 xl:px-32 2xl:px-64 text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text" viewBox="50 100 440 100">
-                <path id="curve" d="M 96 187 C 100 180.9 184 162 270 164 C 368 163 445.4 181.7 449.7 188.4" />
-                <text class="fill-slate-900 text-5xl cloud-text">
-                    <textPath xlink:href="#curve">
-                        Ski Trip 2027
-                    </textPath>
-                </text>
-                <text class="fill-sky-50 text-5xl scale-98 translate-x-1.5" stroke="#000">
-                    <textPath xlink:href="#curve">
-                        Ski Trip 2027
-                    </textPath>
-                </text>
-            </svg>
+            <h1 class="font-clouds font-bold mt-12 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text">Ski Trip 2027</h1>
         </div>
         <div class="flex w-full justify-center gap-16 sm:justify-around absolute sm:translate-x-4 translate-y-11/4 2xl:translate-y-13/4 z-2">
             <h1 class="font-clouds font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-12xl 2xl:text-13xl text-sky-50 uppercase text-shadow-slate-900 md:text-shadow-sm cloud-text cloud-left">{textLeft}</h1>
